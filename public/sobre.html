@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thyalles Campos</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <script>
+      function paginaHome() {
+        window.location.href = "../index.html";
+      }
+      function paginaSobre() {
+        window.location.href = "./sobre.html";
+      }
+      function paginaProjetos() {
+        window.location.href = "./projetos.html";
+      }
+      function paginaContato() {
+        window.location.href = "./contato.html";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="quadrados">
+      <header>
+        <nav>
+          <button class="buttom-menu fundo-vermelho" onclick="paginaHome()">
+            Home
+          </button>
+          <button class="buttom-menu fundo-verde" onclick="paginaSobre()">
+            Sobre
+          </button>
+          <button class="buttom-menu fundo-azul" onclick="paginaProjetos()">
+            Projetos
+          </button>
+          <button class="buttom-menu fundo-amarelo" onclick="paginaContato()">
+            Contato
+          </button>
+        </nav>
+      </header>
+    </div>
+    <div class="container">
+      <div class="quadrados container-4">
+        <div>
+          <img class="imagem-sobre" src="../assets/img/thyalles.jpg" alt="" />
+        </div>
+        <div>
+          <h2>Thyalles Campos</h2>
+          <p><b>Desenvolvedor de Sistemas</b></p>
+        </div>
+      </div>
+      <div class="quadrados container-5">
+        <div>
+          <p>
+            Olá! Meu nome é Thyalles e sou um estudante da Cesar School do curso
+            de Desenvolvimento de Sistemas. Desde de pequeno eu sempre gostei de
+            matemática e de jogos online. Hoje em dia, sou apaixonado por
+            tecnologia e inovação.
+          </p>
+          <p>
+            Além de gostar de tecnologia, sempre tive um pezinho dentro da arte.
+            Já estudei música no CEMO e também no Conservatório Pernambucano de
+            Música. Também tenho uma paixão pela dança, desde 2014 faço parte do
+            cenário de K-Pop cover do recife e também pratiquei Ballet e Dance
+            House.
+          </p>
+        </div>
+        <div>
+          <img
+            class="imagem-projetos"
+            src="../assets/img/valorant.jpg"
+            alt="Imagem de valorant"
+          />
+          <img
+            class="imagem-projetos"
+            src="../assets/img/Conservatorio.jpg"
+            alt="Fotografia do Conservatorio Pernambucano de Musica"
+          />
+        </div>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/NgnK5s1i0jM?si=JVsQ71V3KjO6gHYe"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thyalles Campos</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script>
+      function paginaHome() {
+        window.location.href = "./index.html";
+      }
+      function paginaSobre() {
+        window.location.href = "./public/sobre.html";
+      }
+      function paginaProjetos() {
+        window.location.href = "./public/projetos.html";
+      }
+      function paginaContato() {
+        window.location.href = "./public/contato.html";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="quadrados">
+      <header>
+        <nav>
+          <button class="buttom-menu fundo-vermelho" onclick="paginaHome()">
+            Home
+          </button>
+          <button class="buttom-menu fundo-verde" onclick="paginaSobre()">
+            Sobre
+          </button>
+          <button class="buttom-menu fundo-azul" onclick="paginaProjetos()">
+            Projetos
+          </button>
+          <button class="buttom-menu fundo-amarelo" onclick="paginaContato()">
+            Contato
+          </button>
+        </nav>
+      </header>
+    </div>
+    <div class="left-center quadrados">
+      <h1>Thyalles Campos</h1>
+      <p><b>Desenvolvedor de Sistemas</b></p>
+      <p class="playfair-display">"Não espere, ponha em prática!"</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thyalles Campos</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <script>
+      function paginaHome() {
+        window.location.href = "../index.html";
+      }
+      function paginaSobre() {
+        window.location.href = "./sobre.html";
+      }
+      function paginaProjetos() {
+        window.location.href = "./projetos.html";
+      }
+      function paginaContato() {
+        window.location.href = "./contato.html";
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <div class="quadrados">
+        <header>
+          <nav>
+            <button class="buttom-menu fundo-vermelho" onclick="paginaHome()">
+              Home
+            </button>
+            <button class="buttom-menu fundo-verde" onclick="paginaSobre()">
+              Sobre
+            </button>
+            <button class="buttom-menu fundo-azul" onclick="paginaProjetos()">
+              Projetos
+            </button>
+            <button class="buttom-menu fundo-amarelo" onclick="paginaContato()">
+              Contato
+            </button>
+          </nav>
+        </header>
+      </div>
+
+      <div class="container">
+        <div class="quadrados container-1">
+          <div>
+            <h2>Thyalles Campos</h2>
+            <p><b>Desenvolvedor de Sistemas</b></p>
+          </div>
+          <ul>
+            <br />
+            <li>Tecnologia</li>
+            <ul>
+              <li>ETE Miguel Batista</li>
+              <li>C.E.S.A.R School</li>
+            </ul>
+            <br />
+          </ul>
+        </div>
+
+        <div class="quadrados container-2">
+          <div class="container">
+            <div>
+              <img
+                class="imagem-projetos"
+                src="../assets/img/ETE MIguel Batista.webp"
+                alt="Imagem desenhada do ETE MIguel Batista com a logo"
+              />
+            </div>
+            <div>
+              <h2>ETE Miguel Batista</h2>
+              <p>
+                Formado no curso Técnico de Análise e Desenvolvimento de
+                Sistemas. O projeto de finalização do curso foi a criação de um
+                site, utilizando HTML, CSS e Php. Inicialmente com o Portugol
+                para aprender logica de Programação, foi estudado: Java,
+                Android, Banco de Dados e outros foram estudados ao decorrer do
+                curso.
+              </p>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="container">
+            <div>
+              <img
+                class="imagem-projetos"
+                src="../assets/img/CESAR School.png"
+                alt="Logo do Cesar School"
+              />
+            </div>
+            <div>
+              <h2>C.E.S.A.R School</h2>
+              <p>
+                Atualmente me encontro no Primeiro periodo do curso Tecnólogo em
+                Análise e Desenvolvimento de Sistemas. Um dos meus primeiros
+                projetos que estou realizando no curso é a criação deste site da
+                máteria
+                <span style="color: #ffffb3; background-color: black"
+                  >Introdução à Computação</span
+                >.
+              </p>
+            </div>
+          </div>
+
+          <hr />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

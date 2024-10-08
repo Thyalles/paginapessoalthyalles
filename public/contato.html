@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thyalles Campos</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <script>
+      function paginaHome() {
+        window.location.href = "../index.html";
+      }
+      function paginaSobre() {
+        window.location.href = "./sobre.html";
+      }
+      function paginaProjetos() {
+        window.location.href = "./projetos.html";
+      }
+      function paginaContato() {
+        window.location.href = "./contato.html";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="quadrados">
+      <header>
+        <nav>
+          <button class="buttom-menu fundo-vermelho" onclick="paginaHome()">
+            Home
+          </button>
+          <button class="buttom-menu fundo-verde" onclick="paginaSobre()">
+            Sobre
+          </button>
+          <button class="buttom-menu fundo-azul" onclick="paginaProjetos()">
+            Projetos
+          </button>
+          <button class="buttom-menu fundo-amarelo" onclick="paginaContato()">
+            Contato
+          </button>
+        </nav>
+      </header>
+    </div>
+    <div class="container quadrados" style="justify-content: center">
+      <a class="sem-sublinhado" href="https://www.instagram.com/tay4.3.4/"
+        ><div class="quadrados quadrado-contatos">
+          <h2>INSTAGRAM</h2>
+          <img
+            style="width: 320px"
+            src="../assets/img/insta.webp"
+            alt="Logo do instagram"
+          /></div
+      ></a>
+      <a
+        class="sem-sublinhado"
+        href="https://www.linkedin.com/in/thyalles-campos-aa03b419a/"
+        ><div class="quadrados quadrado-contatos">
+          <h2>LINKEDIN</h2>
+          <img
+            style="width: 200px"
+            src="../assets/img/linkedin2.png"
+            alt="Logo do linkedin"
+          /></div
+      ></a>
+    </div>
+  </body>
+</html>
